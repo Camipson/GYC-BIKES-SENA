@@ -1,0 +1,105 @@
+#logo1{
+	color: #6D213C;
+	font-family: Cambria;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 1px;
+}
+#logo2{
+	color: black;
+	font-family: Cambria;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 1;
+}
+.logo0 {
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 0px;
+    float: left;
+ 
+}
+#menu{
+	color: black;
+	font-family: Cambria;
+	font-size: 20px;
+	float: left;
+	margin-left: 12px;
+	margin-top: 30px;
+}
+#menu:hover{
+	color: #6D213C;
+}
+.phone-number {
+    display: flex;
+    align-items: center;
+    font-family: Cambria;
+    color: #000;
+    text-decoration: none;
+    margin-top: 20px;
+ }
+.phone-number2{
+	font-size: 18px;
+	margin-left: 14px;	
+	text-decoration: none;
+}
+.phone-number3{
+	font-size: 18px;
+	margin-left: 12px;	
+	text-decoration: none;
+}
+#iconos:hover{
+	color: green;
+}
+#menup{
+	padding: 15px;
+}
+#division{
+	border-width: 20px;
+	border-color:#000000;
+	border-style: solid;
+}
+h2{
+	text-align: center;
+	font-family: cambria;
+	margin-bottom: 40px;
+}
+iframe{
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #000;
+}
+input, textarea{
+	margin-bottom: 10px;
+}
+footer{
+	background-color: #97DFD7;
+
+}
+.lista_menu {
+    color: #000;
+    font-size: 20px;
+    font-family: Cambria;
+    padding-top: 10px;
+}
+.lista_menu a{
+	text-decoration: none;
+	color: #000;
+}
+.lista{
+	color: white;
+	padding: 30px;
+}
+.lista h3{
+	color: #000;
+	font-weight: bold;
+	font-family: Cambria;
+	font-size: 30px;
+	padding-top: 30px;
+}
+.derechos {
+	text-align: center;
+	color: #000;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}

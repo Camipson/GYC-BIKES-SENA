@@ -1,0 +1,124 @@
+#logo1{
+	color: #6D213C;
+	font-family: Cambria;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 1px;
+}
+#logo2{
+	color: black;
+	font-family: Cambria;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 1;
+}
+.logo0 {
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 0px;
+    float: left;
+ 
+}
+#menu{
+	color: black;
+	font-family: Cambria;
+	font-size: 20px;
+	float: left;
+	margin-left: 12px;
+	margin-top: 30px;
+}
+#menu:hover{
+	color: #6D213C;
+}
+.phone-number {
+    display: flex;
+    align-items: center;
+    font-family: Cambria;
+    color: #000;
+    text-decoration: none;
+    margin-top: 20px;
+ }
+.phone-number2{
+	font-size: 18px;
+	margin-left: 14px;	
+	text-decoration: none;
+}
+.phone-number3{
+	font-size: 18px;
+	margin-left: 12px;	
+	text-decoration: none;
+}
+#iconos:hover{
+	color: green;
+}
+#menup{
+	padding: 15px;
+}
+#quienes{
+	margin: 20px;
+}
+#quienes h2{
+	font-family: cambria;
+	text-align: center;
+	margin-bottom: 30px;
+}
+#quienes p{
+	text-align: justify;
+	font-family: cambira;
+}
+#division{
+	border-width: 20px;
+	border-color:#000000;
+	border-style: solid;
+}
+.container1{
+	display: grid;
+    justify-content: center;
+    border: 1px solid #989898;
+    padding: 2rem;
+}
+#poster3{
+	
+}
+.end h1{
+	text-align: center;
+	font-family: cambria;
+	color: #000;
+}
+.end p{
+	text-align: center;
+	font-family: cambria;
+	color: #000;
+}
+footer{
+	background-color: #97DFD7;
+
+}
+.lista_menu {
+    color: #000;
+    font-size: 20px;
+    font-family: Cambria;
+    padding-top: 10px;
+}
+.lista_menu a{
+	text-decoration: none;
+	color: #000;
+}
+.lista{
+	color: white;
+	padding: 30px;
+}
+.lista h3{
+	color: #000;
+	font-weight: bold;
+	font-family: Cambria;
+	font-size: 30px;
+	padding-top: 30px;
+}
+.derechos {
+	text-align: center;
+	color: #000;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}

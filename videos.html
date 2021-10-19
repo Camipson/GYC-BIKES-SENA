@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Proyectopaginaweb</title>
+	<!-- BOOTSTRAP -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" >
+	<!-- LLAMAR ESTILO PERSONALIZADO -->
+	<link rel="stylesheet" type="text/css" href="css/estilos4.css">
+	<!--chat-->
+	<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="29920a4b-06a9-4c16-9a8b-725071101b97";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3">
+				<a class="logo0" href="file:///C:/Users/camip/OneDrive/Escritorio/Pagina%20web%20sena/indexsena.html">
+					<img class="logo0" src="img/logo0.png" width="50%" >
+				</a>
+				<span id="logo1">G&C</span>
+				<span id="logo2">BIKES</span>
+								
+			</div>
+
+			<div class="col-lg-5" id="menup">
+				<a href="file:///C:/Users/camip/OneDrive/Escritorio/Pagina%20web%20sena/indexsena.html"><div id="menu"> Inicio </div></a>
+				<a href="tienda.html"><div id="menu"> Tienda </div></a>
+				<a href="videos.html"><div id="menu"> Videos </div></a>
+				<a href="nosotros.html"><div id="menu"> Nosotros </div></a>
+				<a href="contactenos.html"><div id="menu"> Contactenos </div></a>
+				
+				
+				
+
+			</div>	
+			<div class="col-lg-4" id="menu2">
+				<div class="phone-number-content">
+					<a href="tel:+573058605711" class="phone-number">
+						<img src="img/whatsapp.jpg" width="17%" id="logo-phone">
+						 +57 3058605711 
+					</a>
+					<a href="facebook" class="phone-number2">
+						<img src="img/facebook.png" width="9%" id="logo-phone">
+						 
+					</a>
+					<a href="instagram" class="phone-number3">
+						<img src="img/instragram.png" width="10%" id="logo-phone">
+						 
+					</a>
+					<a href="Carrito-de-compras" class="phone-number3">
+						<img src="img/carrito.png" width="10%" id="logo-phone">
+						 
+					</a>
+				</div>								
+			</div>			
+		</div>	
+	</div>
+
+
+       <!-- Encabezado -->
+       <hr id="division">
+
+	<div id="colorfondo">
+		<div class="container">
+		<div class="row">
+			<div class="col-lg-12" id="Hola">
+				<h6>VIDEOS</h6>				
+			</div>			
+		</div>		
+	</div>	
+	<div class="row">
+		<div class="col-lg-9">
+			<div id="video1" style="display: block;">
+				<center>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/VfRvNGKMtz0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</center>				
+			</div>
+			<div id="video2" style="display: none;">
+				<center>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/mcWXvFC45hc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>				
+			</div>
+			<div id="video3" style="display: none;">
+				<center>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/VfRvNGKMtz0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</center>				
+			</div>
+		
+		</div>
+		<div class="col-lg-3">
+			<div id="mvideo" onclick="mostrarvideo('video1')">Video 1</div>
+			<div id="mvideo" onclick="mostrarvideo('video2')">Video 2</div>
+			<div id="mvideo" onclick="mostrarvideo('video3')">Video 3</div>
+		</div>
+	</div>
+	
+	<script>
+		function mostrarvideo(dato){
+			switch(dato) {
+				case 'video1':
+				document.getElementById('video1').style.display="block"
+				document.getElementById('video2').style.display="none"
+				document.getElementById('video3').style.display="none"
+				break; 
+				case 'video2':
+				document.getElementById('video1').style.display="none"
+				document.getElementById('video2').style.display="block"
+				document.getElementById('video3').style.display="none"
+				break;
+				case 'video3':
+				document.getElementById('video1').style.display="none"
+				document.getElementById('video2').style.display="none"
+				document.getElementById('video3').style.display="block"
+				break;
+			}
+		}
+	</script>
+
+<hr>
+<!-- Footer -->
+<footer>	
+	<div class="container">
+	<div class="row">
+		<div class="col-lg-4">
+			<div class="lista">
+				<h3>Guia De Compra</h3>
+				<ul id="footer_menu">
+					<li class="lista_menu">
+						<a href="guiadecompra.html">Envío y devoluciones</a>
+					</li>
+					<li class="lista_menu">
+						<a href="guiadecompra.html">Aviso legal</a>
+					</li>
+					<li class="lista_menu">
+						<a href="guiadecompra.html">Terminos y condiciones</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="lista">
+				<h3>Sobre Nosotros</h3>
+				<ul id="footer_menu">
+					<li class="lista_menu">
+						<a href="file:///C:/Users/camip/OneDrive/Escritorio/Pagina%20web%20sena/contactenos.html">Contáctenos</a>
+					</li>
+					<li class="lista_menu">
+						<a href="guiadecompra.html">Tu cuenta</a>
+					</li>
+					<li class="lista_menu">
+						<a href="guiadecompra.html">Politica de privacidad</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="lista">
+				<h3>Siguenos En:</h3>
+				<ul id="footer_menu">
+					<a href="facebook" class="phone-number2">
+						<img src="img/facebook.png" width="25%" id="logo-phone">
+						 
+					</a>
+					<a href="instagram" class="phone-number3">
+						<img src="img/instragram.png" width="30%" id="logo-phone">
+						 
+					</a>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+			<h5 class="derechos">·Derechos reservados·Jeisson Camilo Umaña Cañon·</h5>
+		</div>
+	</div>
+	
+</div>
+
+</footer>
+
+
+
+</body>
+
+<!-- BOOTSTRAP -->
+<script src="js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+
+<script src="js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+
+</html>
